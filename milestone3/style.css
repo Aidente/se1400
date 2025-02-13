@@ -11,36 +11,36 @@
   
   
   .grid-item-1 {
-    background-color: rgba(64, 64, 64, 0.3);
+    background-color: #fdfdfd;
     text-align: center;
     border: 1px solid #ccc;
-    padding: 50px;
+    padding: 25px;
   }
 
   .grid-item-2 {
-    background-color: rgba(186, 25, 25, 0.3);
+    background-color: rgba(117, 15, 176, 0.3);
     text-align: center;
     border: 1px solid #ccc;
-    padding: 50px;
+    padding: 25px;
   }
 
   .grid-item-3 {
-    background-color: rgba(27, 155, 121, 0.3);
+    background-color: rgba(94, 100, 214, 0.3);
     text-align: center;
     border: 1px solid #ccc;
-    padding: 50px;
+    padding: 25px;
   }
 
   .grid-item-4 {
-    background-color: rgba(168, 194, 38, 0.3);
+    background-color: rgba(224, 79, 79, 0.3);
     text-align: center;
     border: 1px solid #ccc;
-    padding: 50px;
+    padding: 25px;
   }
 
   .grid-item-5 {
-    background-color: rgba(230, 63, 199, 0.3);
+    background-color: rgba(156, 215, 97, 0.3);
     text-align: center;
     border: 1px solid #ccc;
-    padding: 50px;
+    padding: 25px;
   }
