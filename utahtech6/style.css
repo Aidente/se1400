@@ -139,13 +139,8 @@ main img {
 }
 
 #alumnihero {
-    grid-row: 3 / 4;
-    grid-column: 1 / -1;
-    height: 300px;
     background-image: url('utahtechimages/alumnihero.jpg');
-    background-size: cover;
-    background-position: center;}
-
+}
 nav a {
     text-decoration: none;
     color:#FFFFFF;
