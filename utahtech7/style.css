@@ -263,3 +263,28 @@ label {
     width: 10rem;
     grid-column: 2 / 3;
 }
+
+/* Style for the table */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #424242;
+}
+
+/* Style for table headers and cells */
+th, td {
+    border: 1px solid #424242;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Override td alignment for text class */
+.text {
+    text-align: left;
+}
+
+/* Alternate row background color */
+tr:nth-of-type(even) {
+    background-color: #F3F3F3;
+}
