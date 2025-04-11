@@ -119,7 +119,9 @@ html, body {
 /* Breakpoint for screens below 992px */
 @media screen and (max-width: 992px) {
   .grid-container {
-    grid-template-columns: minmax(0, 1fr) repeat(4, minmax(0, 175px)) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) repeat(4, 1fr) minmax(0, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .grid-item-2 {
@@ -142,7 +144,15 @@ html, body {
     grid-column: 4 / 6;
   }
 
-  .grid-item-3, .grid-item-4, .grid-item-5, .grid-item-6 {
+  .grid-item-8,
+  .grid-item-9 {
+    grid-column: 2 / 6;
+  }
+
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6 {
     padding: 15px;
   }
 }
@@ -164,13 +174,20 @@ html, body {
     margin-bottom: 10px;
   }
 
-  .grid-item-3, .grid-item-4, .grid-item-5, .grid-item-6, .grid-item-8, .grid-item-9 {
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6,
+  .grid-item-8,
+  .grid-item-9 {
     grid-column: 1 / 2;
     width: 100%;
     padding: 15px;
   }
 
-  #profile, #code_1, #code_2 {
+  #profile,
+  #code_1,
+  #code_2 {
     height: 150px;
   }
 }
