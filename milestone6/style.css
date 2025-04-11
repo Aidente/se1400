@@ -15,7 +15,7 @@ html, body {
 /* Grid Layout */
 .grid-container {
   display: grid;
-  grid-template-columns: minmax(16px, 1fr) repeat(6, minmax(0, 175px)) minmax(16px, 1fr);
+  grid-template-columns: minmax(16px, 1fr) repeat(6, 1fr) minmax(16px, 1fr);
   gap: 20px;
   padding: 20px 0;
   background-color: #ffffff;
@@ -78,6 +78,7 @@ html, body {
   text-align: left;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 .grid-item-3 {
@@ -148,7 +149,7 @@ form button:hover {
 /* Responsive Media Queries */
 @media screen and (max-width: 992px) {
   .grid-container {
-    grid-template-columns: minmax(16px, 1fr) repeat(4, minmax(0, 175px)) minmax(16px, 1fr);
+    grid-template-columns: minmax(16px, 1fr) repeat(4, 1fr) minmax(16px, 1fr);
   }
 
   .grid-item-2,
@@ -170,6 +171,15 @@ form button:hover {
 
   .grid-item-6 {
     grid-column: 4 / 6;
+  }
+
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6,
+  .grid-item-8,
+  .grid-item-9 {
+    overflow: hidden;
   }
 }
 
@@ -200,6 +210,7 @@ form button:hover {
   .grid-item-9 {
     grid-column: 1 / 2;
     padding: 15px;
+    overflow: hidden;
   }
 
   .grid-item-9 img {
